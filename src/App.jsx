@@ -1,10 +1,11 @@
-import { TaskOne, TaskTwo } from './Components/index';
+import { TaskOne, TaskTwo, TaskThree } from './Components/index';
 
 function App() {
   return (
     <div>
       {/* <TaskOne /> */}
-      <TaskTwo />
+      {/* <TaskTwo /> */}
+      <TaskThree />
     </div>
   );
 }
