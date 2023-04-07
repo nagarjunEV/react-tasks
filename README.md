@@ -32,9 +32,3 @@ This will generate a production-ready build of your app in the dist folder.
 
 Additional features
 This starter template includes the following additional features:
-
-React Router for routing
-Axios for making HTTP requests
-ESLint and Prettier for code linting and formatting
-License
-This project is licensed under the MIT License. Feel free to use it as a starting point for your own projects!
