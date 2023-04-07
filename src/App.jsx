@@ -1,12 +1,11 @@
-import './App.css'
+import { TaskOne } from './Components/index';
 
 function App() {
-
   return (
-    <div className="App">
-      Hello
+    <div>
+      <TaskOne />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
