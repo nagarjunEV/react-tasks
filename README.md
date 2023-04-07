@@ -5,7 +5,10 @@ React challenge published by Justing Sherman on medium.com
 https://medium.com/@justin.sherman
 
 React App with Vite
-This is a starter template for creating a React app using Vite. It includes everything you need to start building your React app, including React, JSX, ES6, and hot reloading.
+
+This is a starter template for creating a React app using Vite. 
+
+It includes everything you need to start building your React app, including React, JSX, ES6, and hot reloading.
 
 Getting started
 To get started, simply clone this repository and install the dependencies:
