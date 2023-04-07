@@ -11,7 +11,9 @@ Getting started
 To get started, simply clone this repository and install the dependencies:
 
 git clone https://github.com/nagarjunEV/react-tasks.git
+
 cd react-tasks
+
 npm install
 
 Once the dependencies have finished installing, start the development server:
