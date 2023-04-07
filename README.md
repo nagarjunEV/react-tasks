@@ -15,9 +15,11 @@ cd react-tasks
 npm install
 
 Once the dependencies have finished installing, start the development server:
+
 npm run dev
 
-This will start the development server at http://localhost:3000. Any changes you make to your code will be automatically reloaded in the browser.
+This will start the development server at http://localhost:3000. 
+Any changes you make to your code will be automatically reloaded in the browser.
 
 Building for production
 To build your app for production, simply run:
