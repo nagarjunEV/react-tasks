@@ -1,6 +1,6 @@
 # react-tasks
 
-Daily React challenge published by Justing Sherman on medium.com
+React challenge published by Justing Sherman on medium.com
 
 https://medium.com/@justin.sherman
 
