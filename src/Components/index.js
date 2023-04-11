@@ -1,4 +1,5 @@
-export { default as TaskOne } from './TaskOne.jsx';
-export { default as TaskTwo } from './TaskTwo.jsx';
-export { default as TaskThree } from './TaskThree.jsx';
+export { default as TaskOne } from './TaskOne';
+export { default as TaskTwo } from './TaskTwo';
+export { default as TaskThree } from './TaskThree';
 export { default as TaskFour } from './TaskFour';
+export { default as TaskSeven } from './TaskSeven';
