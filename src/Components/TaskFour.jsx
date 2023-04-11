@@ -21,13 +21,13 @@ const Ladder = ({ img, count }) => {
   console.log(currEle);
 
   const changeDimension = (i) => {
-    console.log('Change', i);
+    // console.log('Change', i);
     setCurrEle(i);
   };
 
   const revertDimension = (i) => {
     console.log('Revert', i);
-    setCurrEle(count + 1);
+    // setCurrEle(count + 1);
   };
 
   return (
