@@ -46,3 +46,13 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.expand{
+  max-height: 100px !important;
+  max-width: 100px !important;
+}
+
+.revert{
+  max-width: 75px !important;
+  max-height: 75px !important;
+}
