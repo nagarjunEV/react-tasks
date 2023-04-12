@@ -3,3 +3,4 @@ export { default as TaskTwo } from './TaskTwo';
 export { default as TaskThree } from './TaskThree';
 export { default as TaskFour } from './TaskFour';
 export { default as TaskSeven } from './TaskSeven';
+export { default as TaskEight } from './TaskEight';
