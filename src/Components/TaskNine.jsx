@@ -41,7 +41,9 @@ function TaskNine() {
         />
         {userNames.map(
           (user, i) =>
-            getUserName(user['name']).includes(searchFilter) && (
+            getUserName(user['name'])
+              .toLowerCase()
+              .includes(searchFilter.toLowerCase()) && (
               <div key={i}>{getUserName(user['name'])}</div>
             )
         )}
