@@ -5,6 +5,7 @@ import {
   TaskFour,
   TaskSeven,
   TaskEight,
+  TaskNine,
 } from './Components/index';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <TaskThree /> */}
       {/* <TaskFour /> */}
       {/* <TaskSeven /> */}
-      <TaskEight />
+      {/* <TaskEight /> */}
+      <TaskNine />
     </div>
   );
 }
