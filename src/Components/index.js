@@ -6,3 +6,4 @@ export { default as TaskSeven } from './TaskSeven';
 export { default as TaskEight } from './TaskEight';
 export { default as TaskNine } from './TaskNine';
 export { default as TaskTen } from './TaskTen';
+export { default as TaksEleven } from './TaskEleven';
