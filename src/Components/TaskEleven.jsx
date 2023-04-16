@@ -23,6 +23,26 @@ const ValidatedForm = () => {
 
   const onSubmit = (e) => {
     // YOUR CODE HERE
+    e.preventDefault();
+
+    if (username.length < 6 || password.length < 6) {
+      window.alert(`Username and password must be more than 6 characters`);
+      return;
+    }
+
+    const userExists = accounts.some((user) => {
+      return user.username == username && user.password == password;
+    });
+
+    let message = '';
+    if (userExists) message = `Logged In successfully! Hi ${username}`;
+    else message = `New account created! Welcome, ${username}`;
+    setAccounts([...accounts, { username: username, password: password }]);
+
+    window.alert(message);
+    setUsername('');
+    setPassword('');
+    console.log(accounts);
   };
 
   return (
@@ -39,13 +59,21 @@ const ValidatedForm = () => {
       <input
         value={username}
         type="text"
-        onChange={/* MORE OF YOUR CODE HERE */ () => {}}
+        onChange={(e) => {
+          if (e.target.value.length > 20)
+            window.alert('Username cannot exceed 20 character');
+          else setUsername(e.target.value);
+        }}
         style={{ marginBottom: 5 }}
       />
       <input
         value={password}
         type="text"
-        onChange={/* MORE OF YOUR CODE HERE */ () => {}}
+        onChange={(e) => {
+          if (e.target.value.length > 20)
+            window.alert('Password cannot exceed 20 character');
+          else setPassword(e.target.value);
+        }}
         style={{ marginBottom: 10 }}
       />
       <button style={{ alignSelf: 'center' }} onClick={onSubmit}>
